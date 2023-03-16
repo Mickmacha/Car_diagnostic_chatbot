@@ -1,0 +1,6 @@
+nltk
+gradio
+tensorflow
+numpy
+scikit-learn
+tflearn

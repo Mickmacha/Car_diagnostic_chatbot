@@ -1,0 +1,104 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "What's up"
+            ],
+            "responses": [
+                "Hello! How can I assist you with your car diagnostics today?",
+                "Hi there! What can I help you with in regards to your car?",
+                "Hey, what brings you here today? Car troubles?"
+            ]
+        },
+        {
+            "tag": "engine_start",
+            "patterns": [
+                "My car won't start",
+                "The engine won't turn over",
+                "Car won't crank",
+                "Car won't start",
+                "Engine won't start",
+                "Car won't turn over"
+            ],
+            "responses": [
+                "There could be a few reasons why your car won't start. Have you checked the battery?",
+                "If your car won't start, it's likely an issue with the battery or alternator. When was the last time you had them checked?",
+                "A common issue with cars not starting is a bad starter motor. Have you checked that?",
+                "If your car won't start, it's possible that the fuel pump or ignition system is malfunctioning. Have you noticed any other symptoms?"
+            ]
+        },
+        {
+            "tag": "battery",
+            "patterns": [
+                "My battery is dead",
+                "Battery died",
+                "Car won't start because of battery",
+                "Battery not holding a charge"
+            ],
+            "responses": [
+                "If your battery is dead, you may need to jumpstart your car. Do you have jumper cables and another car to help with this?",
+                "A dead battery can be caused by a number of issues. Have you had your battery tested recently?",
+                "If your battery is not holding a charge, it's likely time to replace it. How old is your current battery?"
+            ]
+        },
+        {
+            "tag": "alternator",
+            "patterns": [
+                "My alternator is bad",
+                "Alternator problems",
+                "Car battery not charging",
+                "Battery light on",
+                "Dimming headlights"
+            ],
+            "responses": [
+                "If your alternator is bad, it could be causing issues with your battery charging properly. Have you noticed any other symptoms?",
+                "If your battery light is on, it could be a sign that your alternator is failing. Have you had your alternator tested?",
+                "Dimming headlights can be a sign of a failing alternator. When was the last time you had your car's electrical system checked?"
+            ]
+        },
+        {
+            "tag": "starter_motor",
+            "patterns": [
+                "My starter motor is bad",
+                "Car won't turn over",
+                "Car makes clicking sound when starting",
+                "Starter solenoid problems",
+                "Car cranks but won't start"
+            ],
+            "responses": [
+                "If your car won't turn over, it's possible that the starter motor is bad. Have you had it tested?",
+                "A clicking sound when starting can be a sign of a failing starter motor. Have you noticed any other symptoms?",
+                "If your car cranks but won't start, it's possible that the starter solenoid is malfunctioning. Have you checked that?",
+                "A bad starter motor can cause a number of issues with your car starting properly. When was the last time you had it checked?"
+            ]
+        },
+        {
+            "tag": "fuel_system",
+    "patterns": [
+        "Car won't start because of fuel problems",
+        "Fuel pump issues",
+        "Car stalls while driving",
+        "Engine misfires",
+        "Fuel leaks"
+    ],
+    "responses": [
+        "If your car won't start due to fuel problems, it could be an issue with the fuel pump or fuel injectors. Have you had them checked?",
+        "A failing fuel pump can cause a number of issues with your car's performance. When was the last time you had it replaced?",
+        "If your car stalls while driving, it could be an issue with the fuel system. Have you checked for any fuel leaks?",
+        "Engine misfires can be caused by a number of issues, including problems with the fuel system. Have you noticed any other symptoms?",
+        "If you have noticed any fuel leaks, it's important to get them fixed as soon as possible to avoid any safety hazards. Have you had your fuel lines checked recently?",
+        "A clogged fuel filter can also cause issues with your car's performance. Have you checked or replaced your fuel filter?",
+        "If you are experiencing decreased fuel efficiency, it could be due to a problem with the fuel system. Have you had your fuel injectors cleaned?",
+        "If you are smelling gasoline inside the car, it could be a sign of a fuel leak. Have you noticed any unusual smells?",
+        "Old or contaminated fuel can cause a number of issues with your car's performance. When was the last time you had your fuel tank drained and refilled?",
+        "If your car is experiencing rough idling, it could be due to problems with the fuel system. Have you had your fuel pressure regulator checked?",
+        "A malfunctioning fuel gauge can also be a sign of a fuel system issue. Have you had your fuel sending unit tested?",
+        "If your car is hesitating or sputtering when you accelerate, it could be due to problems with the fuel system. Have you had your fuel injectors checked for clogs or leaks?",
+        "If you are experiencing engine knocking or pinging, it could be due to problems with the fuel octane level. Have you been using the recommended fuel for your car?",
+        "If you have noticed any fuel leaks, it's important to get them fixed as soon as possible to avoid any safety hazards. Have you had your fuel lines checked recently?"
+    ]
+}

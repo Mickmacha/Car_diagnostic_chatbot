@@ -1,2 +1,13 @@
-# Car_diagnostic_chatbot
-In this project a car diagnostic chatbot will be built plus a UI a user can communicate with.
+---
+title: Car Diagnostics
+emoji: 🚀
+colorFrom: yellow
+colorTo: gray
+sdk: gradio
+sdk_version: 3.21.0
+app_file: app.py
+pinned: false
+license: apache-2.0
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference

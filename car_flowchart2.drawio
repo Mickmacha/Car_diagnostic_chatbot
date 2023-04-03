@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T16:28:03.320Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.1.4" etag="3Zq7NQMZjY99A5XGkmNV" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T16:49:23.956Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MvluqvHKILPfJ0lsnvVh" version="21.1.4" type="github">
   <diagram name="Page-1" id="AEnVuTucPnRPypkjWxbm">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-1" target="FGcWKpmp4MEJQDbL4keL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-3" target="FGcWKpmp4MEJQDbL4keL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-3" value="Load Intents dataset" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-5" target="FGcWKpmp4MEJQDbL4keL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-5" value="Data-Preprocessing-tokenization," style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-7" target="FGcWKpmp4MEJQDbL4keL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-7" value="Train Test Split of &lt;br&gt;the Dataset&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-9" target="FGcWKpmp4MEJQDbL4keL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-9" value="Train Model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-14" target="FGcWKpmp4MEJQDbL4keL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-14" value="Evaluate Model based on MSE(Mean Squared Error)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-16" target="FGcWKpmp4MEJQDbL4keL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-16" target="FGcWKpmp4MEJQDbL4keL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-16" value="Is the Model Accuracy sufficient for Predictions?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="880" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-18" target="FGcWKpmp4MEJQDbL4keL-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="945" />
+              <mxPoint x="790" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-18" value="Tune Parameters and re-evaluate model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-21" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="915" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-24" target="FGcWKpmp4MEJQDbL4keL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-24" value="Load User Input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-28" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-29" target="FGcWKpmp4MEJQDbL4keL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-29" value="Process text input through tokenization and stemming" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-31" target="FGcWKpmp4MEJQDbL4keL-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-31" value="Model Inference" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FGcWKpmp4MEJQDbL4keL-33" target="FGcWKpmp4MEJQDbL4keL-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-33" value="Output Generation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FGcWKpmp4MEJQDbL4keL-35" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

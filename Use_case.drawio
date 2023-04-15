@@ -1,9 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T19:49:49.384Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.1.4" etag="bRk_IqpvSGTGkJJxqa1-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-15T20:04:03.728Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="3JLZ-zVLUsOPFanADAtt" version="21.1.4" type="github">
   <diagram name="Page-1" id="bC6M4azlFuEU0s5zmwPE">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-2" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="630" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-3" value="Car Diagnostic Chatbot System." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-7" value="Inference Engine" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-16" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-20" value="Sign In" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-21" value="Sign up" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-22" value="Get Personal Information" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-23" value="Send Message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-24" value="&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Predict Message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-29" value="Extends" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IaVSKgOfeD8hZM1qZMVv-21" target="IaVSKgOfeD8hZM1qZMVv-20">
+          <mxGeometry x="0.1429" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="320" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="300" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-30" value="Includes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.983;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IaVSKgOfeD8hZM1qZMVv-21" target="IaVSKgOfeD8hZM1qZMVv-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="260" as="sourcePoint" />
+            <mxPoint x="540" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="309" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.033;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IaVSKgOfeD8hZM1qZMVv-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="360" as="sourcePoint" />
+            <mxPoint x="150" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0.6;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IaVSKgOfeD8hZM1qZMVv-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="250" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IaVSKgOfeD8hZM1qZMVv-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IaVSKgOfeD8hZM1qZMVv-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="520" as="sourcePoint" />
+            <mxPoint x="700" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
